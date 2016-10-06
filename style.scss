@@ -1,0 +1,43 @@
+  @import "partials/_profile.scss";
+  @import "partials/_posts.scss";
+  @import "partials/_nav.scss";
+
+*, *:before, *:after { box-sizing: border-box; }
+img {max-width: 100%;}
+body {
+  font-family: helvetica, sans-serif;
+  max-width: 75em;
+  min-width: 20em;
+  background: url("backgr.jpg");
+}
+.content-post img {
+  width:80%;
+}
+
+$breakpointMedium: 50em;
+
+@media only screen and (min-width: $breakpointMedium) {
+      .content {
+      float:right;
+      width:67%;
+      margin: 0 0.5em 0 0.2em;
+    }
+      .profile {
+        float:left;
+        width:30%;
+        margin: 0 0.2em 0 0.5em;
+      }
+      footer {
+        clear:both;
+      } 
+      body {
+        margin: 0 auto;
+      } 
+      .top a {
+        font-size: 1.3em;
+      }
+      .top ul{
+        margin:0.5em;
+      }
+}
+

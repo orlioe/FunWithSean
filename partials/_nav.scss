@@ -1,0 +1,25 @@
+$nav-margin:0.5em 0;
+$nav-padding:1.5em 0;
+
+.top {
+    &-ul {
+      list-style:none;
+      text-align: center;
+      margin: $nav-margin;
+      padding: $nav-padding;
+      background: rgba(255, 255, 255, 0.6);
+      border-radius: 1em;
+      &-li{
+         display: inline-block;
+         width: 32%;
+        &-a {
+            text-decoration: none;
+            color:black;
+            font-size: 1em;
+            }
+        &-a:hover {
+            color:red;
+          }
+        }
+        }
+    }

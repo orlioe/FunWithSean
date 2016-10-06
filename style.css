@@ -1,0 +1,93 @@
+.profile {
+  font-family: Arial;
+  text-align: center;
+  width: 100%;
+  margin: 0.5em auto;
+  border-radius: 1em;
+  border: black solid 1px;
+  padding: 1em;
+  background: rgba(255, 255, 255, 0.6); }
+  .profile-content .photo {
+    border-radius: 50%;
+    max-width: 192px; }
+  .profile-content h2 {
+    color: blue; }
+
+.interests ul {
+  text-align: center; }
+
+.interests ul li {
+  text-align: left; }
+
+.social {
+  display: inline-block; }
+
+.social img {
+  padding: 0 1em; }
+
+.content {
+  padding: 1em;
+  border-radius: 1em;
+  border: solid black 1px;
+  background: rgba(255, 255, 255, 0.6);
+  width: 100%; }
+  .content-post {
+    font-size: 1.1em;
+    line-height: 1.5; }
+
+.top-ul {
+  list-style: none;
+  text-align: center;
+  margin: 0.5em 0;
+  padding: 1.5em 0;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 1em; }
+  .top-ul-li {
+    display: inline-block;
+    width: 32%; }
+    .top-ul-li-a {
+      text-decoration: none;
+      color: black;
+      font-size: 1em; }
+    .top-ul-li-a:hover {
+      color: red; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%; }
+
+body {
+  font-family: helvetica, sans-serif;
+  max-width: 75em;
+  min-width: 20em;
+  background: url("backgr.jpg"); }
+
+.content-post img {
+  width: 80%; }
+
+@media only screen and (min-width: 50em) {
+  .content {
+    float: right;
+    width: 67%;
+    margin: 0 0.5em 0 0.2em; }
+
+  .profile {
+    float: left;
+    width: 30%;
+    margin: 0 0.2em 0 0.5em; }
+
+  footer {
+    clear: both; }
+
+  body {
+    margin: 0 auto; }
+
+  .top a {
+    font-size: 1.3em; }
+
+  .top ul {
+    margin: 0.5em; } }
+
+/*# sourceMappingURL=style.css.map */

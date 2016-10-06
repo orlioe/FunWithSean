@@ -1,0 +1,26 @@
+.profile {
+  font-family: Arial;
+  text-align: center;
+  width: 100%;
+  margin: 0.5em auto;
+  border-radius: 1em;
+  border: black solid 1px;
+  padding: 1em;
+  background: rgba(255, 255, 255, 0.6); }
+  .profile-content .photo {
+    border-radius: 50%;
+    max-width: 192px; }
+  .profile-content h2 {
+    color: blue; }
+
+.interests ul {
+  text-align: left;
+  margin: 0.5em auto; }
+
+.social {
+  display: inline-block; }
+
+.social img {
+  padding: 0 1em; }
+
+/*# sourceMappingURL=_profile.css.map */

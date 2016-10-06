@@ -1,0 +1,16 @@
+$posts-padding: 1em;
+$posts-border-radius:1em;
+$posts-margin: 0.5em auto;
+.content {
+  padding: $posts-padding;
+  border-radius: $posts-border-radius;
+  border: solid black 1px;
+  background: rgba(255, 255, 255, 0.6);
+  width: 100%;
+   	
+  	&-post {
+  		font-size: 1.1em;
+  		line-height: 1.5;
+  	}
+
+}
