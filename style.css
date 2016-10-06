@@ -59,7 +59,7 @@ img {
 body {
   font-family: helvetica, sans-serif;
   max-width: 75em;
-  min-width: 20em;
+  min-width: 18em;
   background: url("backgr.jpg"); }
 
 .content-post img {
